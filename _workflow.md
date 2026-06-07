@@ -17,6 +17,7 @@
 | 新会话启动 | `AGENTS.md`、`_series-rules.md`、`case-files/session-handoff.md` | 当前案 `outline.md` | 无 |
 | 新案设计 | `_series-outline.md`、`_cross-case-tracker.md`、`_templates/case-card.md` | `_characters.md` | 新案 `outline.md` |
 | 单章写作 | 当前案 `outline.md`、最近 1 到 3 章正文原文、`_writing-style-guide.md` 第十节 | `case-files/session-handoff.md`、`_characters.md` 本章出场人物条目、`_cross-case-tracker.md`、`_writing-style-guide.md` 相关章节 | 无 |
+| 作者反馈修改 | 当前章草稿、作者反馈、`_workflow.md` | `_writing-style-guide.md`、`_editor-review.md`、当前案 `outline.md`、本地技能 `.agents/skills/duxin-feedback-capture/SKILL.md` | 当前章；长期反馈按第六节第4点归档 |
 | 写后审查 | 本章草稿、`_editor-review.md`、`_series-rules.md`、当前案 `outline.md`、最近 1 到 3 章正文原文、`_writing-style-guide.md` 第十节 | `_characters.md` 本章出场人物条目、`_cross-case-tracker.md`、`_writing-style-guide.md` 相关章节 | 无 |
 | 作者确认后 | 无 | 当前案 `outline.md` | `case-files/session-handoff.md`、当前案 `outline.md`（如有事实变化） |
 | 案件收尾 | 当前案 `outline.md`、`_cross-case-tracker.md`、`_series-outline.md` | `_characters.md` | `session-handoff.md`、当前案 `outline.md`、`_cross-case-tracker.md`、`_series-outline.md`、`_characters.md`（如人物状态变化） |
@@ -155,6 +156,25 @@ AI 必须先询问作者本案想写什么。
 
 旧案、跨地协作或重启案件中，优先尊重原办案人的既有工作：女主先提出工作方式或观察角度，再通过亲自观察、心声和证据复核推动进展，不能一入场就替多年侦查下结论。
 
+### 4. 作者反馈沉淀
+
+作者对草稿提出修改意见时，写作 AI 必须先修改当前正文，再判断每条反馈是否需要长期沉淀。
+
+分类规则：
+
+- **本章局部问题**：只修改当前章，不写入项目文档。
+- **本案持续问题**：影响当前案后续事实、线索、人物状态或章节方向时，作者确认后更新当前案 `outline.md` 或 `session-handoff.md`。
+- **全书硬规则**：涉及能力、道具、身份边界、顾晏廷红线、系统机制时，更新 `_series-rules.md` 或 `_cross-case-tracker.md`。
+- **长期语言风格**：涉及句子过短、提纲式表达、心声信息量、对话逻辑、情绪判断时机等写作习惯时，优先更新 `_writing-style-guide.md` 第十节；需要编辑门禁检查的，同步更新 `_editor-review.md`。
+- **流程要求**：涉及写前、写后、审查、字数、归档等协作方式时，更新 `_workflow.md`。
+- **本地技能要求**：如果某条长期反馈会影响对应任务入口，同步更新 `.agents/skills/` 下最相关的 `SKILL.md`。
+
+沉淀原则：
+
+- 新规则只写到最直接生效的位置，避免多处重复。
+- 能合并进既有检查项的，不新增长段说明。
+- 最终回复作者时，简短说明哪些反馈已归档为长期规则。
+
 ---
 
 ## 七、写后审查闭环
@@ -176,6 +196,7 @@ AI 必须先询问作者本案想写什么。
 
 - 编辑审查意见不能直接作为最终交付。
 - 写作 AI 必须先把编辑提出的问题改进正文，再完成定向复审。
+- 最终回复作者时，开头先标注本章当前正文字数。
 - 最终回复作者时，只汇报已修改内容和复审结果；除非作者要求，不把未处理的审查意见抛给作者。
 - 作者指出流程遗漏时，必须立刻补做“修改正文 + 定向复审”，并将该要求纳入后续工作默认流程。
 

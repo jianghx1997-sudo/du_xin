@@ -1,0 +1,4 @@
+interface:
+  display_name: "Duxin Continuity Check"
+  short_description: "Check Duxin abilities, props, relationships, cases, and callbacks."
+  default_prompt: "Use $duxin-continuity-check to check Duxin continuity risks."

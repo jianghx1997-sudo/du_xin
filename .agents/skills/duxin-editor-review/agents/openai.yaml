@@ -1,0 +1,4 @@
+interface:
+  display_name: "Duxin Editor Review"
+  short_description: "Review Duxin drafts for rules, continuity, logic, and prose issues."
+  default_prompt: "Use $duxin-editor-review to review this Duxin chapter draft."

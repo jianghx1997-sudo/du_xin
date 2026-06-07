@@ -28,6 +28,21 @@
 - [_cross-case-tracker.md](_cross-case-tracker.md)：涉及伏笔、能力、道具、破局方式时（伏笔和能力道具的唯一数据源）。
 - [_series-outline.md](_series-outline.md)：设计新案或核对阶段规划时。
 
+## 本地项目技能
+
+本项目有项目专属技能库：`.agents/skills/`。这些文件不一定会被 Codex 自动作为全局 skill 触发；新会话应根据任务按需读取对应 `SKILL.md`，作为项目级流程补充。
+
+- `.agents/skills/duxin-project-context/SKILL.md`：新会话启动、恢复当前进度、确认项目状态时。
+- `.agents/skills/duxin-author-revision-learning/SKILL.md`：作者说“改好了”、Obsidian 同步改稿后，开写下一章前。
+- `.agents/skills/duxin-chapter-writing/SKILL.md`：写下一章、续写正文、把草稿改成可提交正文时。
+- `.agents/skills/duxin-editor-review/SKILL.md`：每章写完后的独立编辑审查和定向复审。
+- `.agents/skills/duxin-feedback-capture/SKILL.md`：作者提出修改意见后，判断哪些要沉淀为长期规则时。
+- `.agents/skills/duxin-continuity-check/SKILL.md`：核对伏笔、能力、道具、人物状态、案件事实和跨案连续性时。
+- `.agents/skills/duxin-archive-update/SKILL.md`：作者确认章节或阶段后，更新接力、案纲和追踪文档时。
+- `.agents/skills/duxin-case-design/SKILL.md`：设计新案、案件卡、证据链和章纲时。
+- `.agents/skills/duxin-research-brief/SKILL.md`：需要现实刑侦、消防、法律、医学、舆论等资料核验时。
+- `.agents/skills/duxin-obsidian-map/SKILL.md`：制作案件关系图、时间线、证据链图或 Obsidian Canvas 时。
+
 ## 权威层级
 
 发生冲突时，按以下层级判断：
@@ -43,7 +58,7 @@
 
 - 时菱能力：两米内免接触读心，只读目标当前最强烈表层念头。
 - 能力例外：始终听不到顾晏廷心声。
-- 持有道具：有一说一卡，未使用（状态以 [_cross-case-tracker.md](_cross-case-tracker.md) 为准）。
+- 持有道具：以 [_cross-case-tracker.md](_cross-case-tracker.md) 为准；不得擅自新增、使用或改写道具效果。
 - 读心后不能立刻行动，中间至少有观察、验证或等待。
 - 时菱是顾问，不是警察，不能越权执法。
 - 顾晏廷不主动表白、不暧昧调情、不越界肢体接触、不替时菱推理。

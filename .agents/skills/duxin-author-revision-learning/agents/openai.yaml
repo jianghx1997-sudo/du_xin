@@ -1,0 +1,4 @@
+interface:
+  display_name: "Duxin Revision Learning"
+  short_description: "Learn from the author's latest local revision before continuing."
+  default_prompt: "Use $duxin-author-revision-learning after the author says “改好了”."

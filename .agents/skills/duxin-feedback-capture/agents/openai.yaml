@@ -1,0 +1,4 @@
+interface:
+  display_name: "Duxin Feedback Capture"
+  short_description: "Turn recurring author feedback into durable Duxin writing rules."
+  default_prompt: "Use $duxin-feedback-capture when Duxin feedback should apply long-term."

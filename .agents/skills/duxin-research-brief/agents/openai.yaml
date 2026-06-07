@@ -1,0 +1,4 @@
+interface:
+  display_name: "Duxin Research Brief"
+  short_description: "Research real-world crime details and convert them to fiction bounds."
+  default_prompt: "Use $duxin-research-brief to research realistic details for Duxin."

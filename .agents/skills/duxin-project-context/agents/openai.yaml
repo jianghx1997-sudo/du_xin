@@ -1,0 +1,4 @@
+interface:
+  display_name: "Duxin Project Context"
+  short_description: "Restore Duxin rules, handoff, current case, and writing state."
+  default_prompt: "Use $duxin-project-context to restore the current Duxin project context."

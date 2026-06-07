@@ -1,0 +1,4 @@
+interface:
+  display_name: "Duxin Archive Update"
+  short_description: "Update handoff, outline, and trackers after author confirmation."
+  default_prompt: "Use $duxin-archive-update after the author confirms a Duxin chapter."

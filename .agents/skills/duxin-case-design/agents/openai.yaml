@@ -1,0 +1,4 @@
+interface:
+  display_name: "Duxin Case Design"
+  short_description: "Design Duxin case cards and outlines from series rules and templates."
+  default_prompt: "Use $duxin-case-design to design a new Duxin case."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Duxin Chapter Writing"
+  short_description: "Write a Duxin chapter from outline, recent chapters, and checklist."
+  default_prompt: "Use $duxin-chapter-writing to continue the next Duxin chapter."
