@@ -1,4 +1,0 @@
-interface:
-  display_name: "Duxin Obsidian Map"
-  short_description: "Create Duxin relationship, evidence, timeline, and foreshadow maps."
-  default_prompt: "Use $duxin-obsidian-map to create a Duxin case map."

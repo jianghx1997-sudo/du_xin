@@ -1,4 +1,6 @@
 interface:
-  display_name: "Duxin Chapter Writing"
-  short_description: "Write a Duxin chapter from outline, recent chapters, and checklist."
-  default_prompt: "Use $duxin-chapter-writing to continue the next Duxin chapter."
+  display_name: "读心·语音稿优化"
+  short_description: "给语音原稿分行、纠正人名和明显语病，保留原句、内容及作者语言风格。"
+  default_prompt: "请用 $duxin-chapter-writing 轻修我的语音稿，不删句、不大改。"
+policy:
+  allow_implicit_invocation: true

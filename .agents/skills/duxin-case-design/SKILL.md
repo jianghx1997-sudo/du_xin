@@ -1,36 +1,16 @@
 ---
 name: duxin-case-design
-description: Design a new case for the 读心 D:\AI\du_xin serialized crime novel. Use when the user wants to start a new case, brainstorm case types, create a case card, expand a confirmed case into an outline, plan evidence chains, choose the culprit, set the emotional hook, or ensure the new case differs from previous cases while preserving series rules and character boundaries.
+description: 为《读心》构思案件、动机、反转、证据链、人物冲突和后续剧情大纲。用于讨论新案或完善已有设想，不自动写正文或保存案纲。
 ---
 
-# 读心新案设计
+# 剧情构思与设计
 
-## 原则
+遵守项目根目录 `AGENTS.md`，这是项目两种日常功能之一。
 
-新案开始前，必须先问作者本案想写什么。作者没有想法时，才提供 2 到 3 个案型候选，并等待确认。
-
-## 必读
-
-1. `_series-rules.md`
-2. `_series-outline.md`
-3. `_cross-case-tracker.md`
-4. `_templates/case-card.md`
-5. `_templates/case-outline.md`
-6. 按需读取 `_characters.md`
-
-## 流程
-
-1. 询问作者本案想写什么，或整理作者已有想法。
-2. 形成案件卡，至少包含案件类型、社会影响力、受害者、真凶、动机、核心证据、破局方式、时菱发挥点、顾晏廷和三队功能、主线推进。
-3. 作者确认案件卡后，才能扩写当前案 `outline.md`。
-4. 扩写章纲时记录已确认事实、线索等级、证据链、未解决隐患、后续可回收点。
-5. 新案正文开始前，交给 `duxin-chapter-writing`。
-
-## 设计红线
-
-- 不重复前案破局方式。
-- 不让时菱靠神降推翻所有人。
-- 不让刑侦、消防、法医、技术人员降智。
-- 证据必须说明为什么会留下。
-- 真凶动机要能承受审讯和复盘。
-- 感情线、家庭线、系统奖励只在合适节点推进。
+- 有想法直接完善，没有方向时给少量候选，不设案件卡或逐步审批门禁。
+- 按问题读取相关正文与设定。承接作者改稿前读取最新本地版本，缺案纲不自动补写。
+- 把已确认事实、可选建议、待核验问题分开，不擅自改变人物设定或故事走向。
+- 检查动机是否能支撑行为、证据是否自然产生、反转是否有前因，以及警方判断是否超过证据。
+- 分清真实案情、警方已知和读者已知；读心只能提供方向，不能代替证据。
+- 专业细节需要时查证，解释可写边界，不提供现实犯罪操作指南。
+- 输出作者要求的方案或粗纲，不默认写正文、创建文件、调用独立审查或更新追踪表。
